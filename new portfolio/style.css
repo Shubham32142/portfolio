@@ -175,7 +175,7 @@ body {
 }
 /* page2 */
 .page2 {
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   background-color: rgb(44, 44, 44);
   position: relative;
@@ -183,7 +183,7 @@ body {
 
 .profile2 {
   display: flex;
-  margin-left: 8%;
+  margin-left: 3%;
   position: absolute;
   top: 8%;
 }
@@ -226,7 +226,7 @@ body {
 
 .services {
   position: absolute;
-  right: 4%;
+  right: 2%;
   top: 7%;
 }
 .services h1 {
@@ -289,15 +289,15 @@ body {
   margin-bottom: 10px;
 }
 .services1:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0.9);
 }
 .services2:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0.9);
 }
 .services3:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0.9);
 }
 .inner_service1 {
@@ -318,7 +318,7 @@ body {
 /* page3 */
 .page3 {
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   background-color: black;
   color: white;
 }
@@ -535,8 +535,8 @@ html {
 }
 .text1 {
   position: relative;
-  right: 8%;
-  top: 1.9rem;
+  right: 20%;
+  top: 90%;
   font-weight: 600;
 }
 .text2 {
@@ -563,10 +563,11 @@ html {
 .items2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 .items-projects {
-  width: 580px;
+  width: 520px;
+  object-fit: cover;
   height: 360px;
   padding: 2rem 1rem;
   background-color: #fff;
@@ -868,4 +869,7 @@ html {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
+}
+.menu-btn {
+  display: none;
 }
