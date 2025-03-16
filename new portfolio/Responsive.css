@@ -312,9 +312,6 @@
 .fa-bars:active {
   color: #66d666;
 }
-.services1 {
-  width: 20px;
-}
 @media screen and (width > 1024px) {
   .menu-btn {
     display: none;
